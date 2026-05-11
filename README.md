@@ -20,6 +20,7 @@ SSAFY Django 과제를 시작할 때 반복적으로 하게 되는 초기 세팅
 ```text
 scripts/
 ├─ setup_assignment.ps1
+├─ setup_assignment.sh
 └─ django_gitignore_template.txt
 ```
 
@@ -45,13 +46,25 @@ cd C:\Users\SSAFY\Desktop\yujeong\django_assignment\assignment4
 ```
 
 - 스크립트 실행
+
+**shell**
 ```shell
 ..\scripts\setup_assignment.ps1 -RepoUrl "https://github.com/your-repo/example.git"
 ```
+**bash**
+```bash
+source ..\scripts\setup_assignment.sh -RepoUrl "https://github.com/your-repo/example.git"
+```
 
 - 가상환경 활성화
+
+**shell**
 ```shell
-"\venv\Scripts\activate"
+\venv\Scripts\activate
+```
+**bash**
+```bash
+source \venv\Scripts\activate
 ```
 
 - 작업 시작
