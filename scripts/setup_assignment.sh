@@ -55,7 +55,7 @@ fi
 # - django-extensions: provides convenient Django commands such as shell_plus
 # - jupyterlab: provides a browser-based notebook environment
 # - ipykernel: registers the current virtual environment as a Jupyter kernel
-./venv/Scripts/python.exe -m pip install django-extensions jupyterlab ipykernel
+./venv/Scripts/python.exe -m pip install django-extensions djangorestframework jupyterlab ipykernel
 ./venv/Scripts/python.exe -m ipykernel install --user --name "$repo_name" --display-name "Python ($repo_name)"
 
 echo ""
