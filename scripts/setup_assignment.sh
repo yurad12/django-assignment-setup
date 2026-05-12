@@ -26,7 +26,7 @@ done
 if [[ -z "$repo_url" ]]; then
   echo "RepoUrl is required."
   echo "Example:"
-  echo "source ../scripts/setup_assignment.sh -RepoUrl https://lab.ssafy.com/jjungyu1282/django_hw_10_2"
+  echo "source ../scripts/setup_assignment.sh -RepoUrl https://github.com/your-repo/example.git"
   return 1
 fi
 
